@@ -22,7 +22,7 @@ static char	*ft_strcpy(char *dst, char *src)
 	dst[i] = '\0';
 	return (dst);
 }
-t_stock_str	*ft_strs_to_tab(int ac, char **av)
+struct s_stock_str *ft_strs_to_tab(int ac, char **av)
 {
 	int	i;
 	t_stock_str	*tab;
